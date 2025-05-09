@@ -2,6 +2,7 @@ import React from 'react'
 import Header from './Header'
 import { RootState } from '../redux/store';
 import { useSelector } from 'react-redux';
+import Footer from './Footer';
 
 interface MainLayoutProps {
     children: React.ReactNode;
@@ -20,7 +21,7 @@ const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
                     {children}
                 </div> : <div>{children}</div>
             }
-
+            {headerVisible && <Footer />}
         </div>
     )
 }
