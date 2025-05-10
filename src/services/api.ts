@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // Read the base URL from an env-var (see below)
-const BASE_URL = import.meta.env.VITE_API_URL;
+const BASE_URL = "subcruncher-server-czdggue2awdze4gz.uksouth-01.azurewebsites.net";
 
 // Create an Axios instance
 const api = axios.create({
