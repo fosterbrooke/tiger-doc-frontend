@@ -61,4 +61,4 @@ jobs:
           app-name: 'subcruncher-webapp'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D8563EC8F0FA4E4A93A0B6A805A5BC41 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_98A21547DE5C4D8788515CBD806EC026 }}
