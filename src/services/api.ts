@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // Read the base URL from an env-var (see below)
-const BASE_URL = 'http://localhost:8000';
+const BASE_URL = import.meta.env.VITE_API_URL;
 
 // Create an Axios instance
 const api = axios.create({
