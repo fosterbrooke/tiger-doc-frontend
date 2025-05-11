@@ -42,7 +42,7 @@ export default function Dashboard() {
       setLoading(true);
       toast.info('Converting file...');
 
-      const response = await axios.post('http://localhost:8000/process/convert', formData, {
+      const response = await axios.post(`${import.meta.env.VITE_API_URL}/process/convert`, formData, {
         responseType: 'arraybuffer',
       });
 
